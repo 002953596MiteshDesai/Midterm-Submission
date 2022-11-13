@@ -9,16 +9,16 @@ public class LinkList {
 		head = null;
 	}
 	
-	public void insertSorted (){
+	public void insertSorted () {
 		
-		Node temp= new Node<T>();
-		temp = head ;
+		Node temp = new Node();
+		temp = head;
 		temp = temp.next;
-		if ( head == null ) {
+		if (head == null) {
 			temp.data = head.data;
 		}
 		
-		if(temp.data < temp.next.data ) {
+		if (temp.data < temp.next.data) {
 			temp.next.data = temp.data;
 		}
 	}

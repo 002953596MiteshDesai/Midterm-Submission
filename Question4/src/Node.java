@@ -1,4 +1,4 @@
-public class Node<T> {
+public class Node {
 	public Integer data;
 	public Node next;
 	
@@ -6,4 +6,6 @@ public class Node<T> {
 		this.data = data;
 		this.next = null;
 	}
+	
+	public Node(){}
 }
